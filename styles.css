@@ -17,7 +17,7 @@ header{
     background-color: aliceblue;
     margin: 10px auto 10px auto;
 }
-.post-header, .post-interaction{
+.post-header{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -37,6 +37,14 @@ header{
     text-align: end;
     width: 70%;
     font-size: 25px;
+    cursor: pointer;
+}
+.post-interaction{
+    display: grid;
+    grid-template-columns: 6% 6% 6% 6% 6% 6% 6% 6% 6% 6% 6% 6% 6% 6% 6% 6%;
+    width: 100%;
+    font-size: 25px;
+    padding-bottom: 10px;
 }
 h1, img{
     text-align: center;
@@ -47,5 +55,15 @@ h1, img{
     padding:10px;
 }
 p,h2{
-margin: 0;
+    margin: 0;
+}
+.post-footer p{
+margin: 10px 0 0 0;
+}
+.fa-bookmark{
+    grid-column-start:17;
+    justify-content: left;
+}
+.post-interaction i{
+    cursor: pointer;
 }
