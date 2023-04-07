@@ -17,27 +17,35 @@ header{
     background-color: aliceblue;
     margin: 10px auto 10px auto;
 }
-.post-header{
+.post-header, .post-interaction{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 10px;
 }
-.post-title{
-    display: inline-block;
-    width: 80%;
-    margin: 0;
+.profile-img{
+    text-align: center;
+    width: 10%;
+    font-size: 25px;
 }
-.post-date{
-    display: inline-block;
+.user-info{
+    text-align: start;
     width: 20%;
-    margin: 0;
+    font-size: 12px;
+}
+.more-info{
+    text-align: end;
+    width: 70%;
+    font-size: 25px;
 }
 h1, img{
     text-align: center;
     width: 100%;
     margin: 0;
 }
-.post-description{
-    padding:0 0 10px 10px;
+.post-footer{
+    padding:10px;
 }
-p{
+p,h2{
 margin: 0;
 }
